@@ -1,0 +1,14 @@
+.nothing__main-content {
+    align-items: center;
+    background-image: radial-gradient(circle at 50% -20.71%, #a7deff 0, #6c90d8 50%, #38496b 100%);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.nothing__center-content {
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+
+.notes__textarea {
+    border: none;
+    color: #363636;
+    font-size: 20px;
+    flex: 1 1 auto;
+    resize: none;
+}
+
+.notes__textarea:focus {
+    outline: none;
+}
+
+.notes__image{
+    box-shadow: 5px 5px #363636;
+}
+

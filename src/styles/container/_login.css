@@ -1,0 +1,41 @@
+.login__background {
+    /* background-image: url("../../assets/login/19742.jpg"); */
+    /* background-image: radial-gradient(circle at 47.14% 39.32%, #a5e2ff 0, #79ccfa 25%, #3cb5f2 50%, #009eea 75%, #0089e2 100%); */
+    background-image: radial-gradient(circle at 50% -20.71%, #a7deff 0, #6c90d8 50%, #38496b 100%);
+    /* background-image: linear-gradient(180deg, #edb78d 0, #e4a67e 25%, #d8906c 50%, #cb7a5c 75%, #c26851 100%); */
+    /* background-image: linear-gradient(225deg, #a5d9f4 0, #6cb4d8 50%, #1d90bd 100%); */
+    background-repeat: no-repeat;
+    background-position: center; /*Posicionamos la imagen al centro*/
+    background-size: cover;
+    background-attachment: fixed; /*Efecto parallax con CSS*/
+    /* background-color: #E9E0CA; */
+}
+
+.login__container {
+    height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.login__form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+}
+
+.auth__form-content {
+    padding: 10px;
+}
+
+.auth__background-loading {
+    background-image: radial-gradient(circle at 50% -20.71%, #a7deff 0, #6c90d8 50%, #38496b 100%);
+}
+
+.auth__loading {
+    justify-content: center
+}
